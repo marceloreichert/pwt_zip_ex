@@ -1,8 +1,7 @@
-# PWT Broadway
+# PWT ZIP
 
 To start your Phoenix server:
 
-  * Setup the project with `mix setup`
   * Start Phoenix endpoint with `mix phx.server`
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
@@ -16,7 +15,3 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Docs: https://hexdocs.pm/phoenix
   * Forum: https://elixirforum.com/c/phoenix-forum
   * Source: https://github.com/phoenixframework/phoenix
-
-
-PwtZip.RMQPublisher.id_queue_size
-PwtZip.RMQPublisher.publish_process_id("1")
