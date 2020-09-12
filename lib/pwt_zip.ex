@@ -13,7 +13,18 @@ defmodule PwtZip do
 
   """
   def handle_messages(payload) do
-    # payload
-    # |> PwtZip.Entry.entry_payload
+
+    # colocar no fila para processar o payload
+
+    # FILA
+    # baixar o arquivo
+    # zipar
+    # colocar no s3
+    # mandar email informando
+
+require IEx
+IEx.pry()
+    :zip.create('files.zip', ['IMG_2493.mov'], cwd: '/Users/marceloreichert/Downloads')
+
   end
 end

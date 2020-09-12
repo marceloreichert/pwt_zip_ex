@@ -20,5 +20,7 @@ erl_crash.dump
 *.ez
 
 # Ignore package tarball (built via "mix hex.build").
-pwt_broadway-*.tar
+pwt_zip-*.tar
 
+/log
+/*.zip
